@@ -51,5 +51,4 @@ function validarCPF($cpf)
 echo validarCPF('568.845.246-34');
 
 
-
 ?>
