@@ -1,7 +1,5 @@
 <?php
 
-#Comentario
-
 function validarCPF($cpf)
 {
 
