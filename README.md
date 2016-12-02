@@ -1,5 +1,4 @@
-# ValidarCPF
-Validar CPF para iniciantes
+# Validar CPF para iniciantes
 
 <h1>CPF? O QUE É?<h1>
 <br>CPF ou Cadastro de Pessoa Física é um documento brasileiro emitido pela secretaria da Receita Federal do Ministério da Fazenda. O conjunto de números é formado por 11 dígitos, sendo os dois últimos dígitos verificadores, que dizem se o CPF é válido.
