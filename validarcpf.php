@@ -51,4 +51,3 @@ echo validarCPF('568.845.246-34');
 
 ?>
 
-#TESTE GIT!
