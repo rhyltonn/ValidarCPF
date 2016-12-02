@@ -1,5 +1,6 @@
 <?php
 
+#Comentario
 
 function validarCPF($cpf)
 {
@@ -13,7 +14,7 @@ function validarCPF($cpf)
      */
     for ($i = 0, $v1 = 10; $i <= 8, $v1 >= 2; $i++, $v1--) {
 
-        @$soma1 += $cpf[$i] * $v1;
+        $soma1 += $cpf[$i] * $v1;
     }
     $restoV1 = $soma1 % 11; //Resto da Divisão
     $verif1 = 11 - $restoV1; //Números de caracter subtraido por Resto
@@ -27,7 +28,7 @@ function validarCPF($cpf)
      */
     for ($i = 0, $v2 = 11; $i <= 9, $v2 >= 2; $i++, $v2--) {
 
-        @$soma2 += $cpf[$i] * $v2;
+        $soma2 += $cpf[$i] * $v2;
     }
     $restoV2 = $soma2 % 11; //Resto da Divisão
     $verif2 = 11 - $restoV2; //Números de caracter subtraido por Resto
